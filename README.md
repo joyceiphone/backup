@@ -15,6 +15,13 @@ cd backup
 mkdir [dir]
 cd [dir]
 ```
+example:
+```
+mkdir test1
+cd test1
+touch test1.txt
+echo 'hello'
+```
 
 3. In this directory, you may create several files.
 
@@ -31,3 +38,8 @@ example:
 openssl aes-256-cbc -a -salt -in myscript.sh -out encoded.enc
 ```
 
+6. You may read the encoded file
+
+```
+cat encoded.enc
+```

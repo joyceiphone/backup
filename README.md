@@ -15,6 +15,9 @@ cd backup
 mkdir [dir]
 cd [dir]
 ```
+
+3. In this directory, you may create several files.
+
 example:
 ```
 mkdir test1
@@ -22,8 +25,6 @@ cd test1
 touch test1.txt
 echo 'hello'
 ```
-
-3. In this directory, you may create several files.
 
 4. Run the script
 example:
